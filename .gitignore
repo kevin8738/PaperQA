@@ -1,0 +1,32 @@
+.venv/
+__pycache__/
+*.pyc
+
+# Local environment files
+.env
+.env.*
+!.env.example
+frontend/.env.local
+
+# Frontend build/runtime
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# Runtime data (keep empty folder structure only)
+data/db.sqlite
+data/db.sqlite-wal
+data/db.sqlite-shm
+data/*.log
+data/papers/*
+!data/papers/.gitkeep
+data/pages/*
+!data/pages/.gitkeep
+data/index/*
+!data/index/.gitkeep
+data/tmp/*
+!data/tmp/.gitkeep
+
+# OS/editor
+.DS_Store
+Thumbs.db

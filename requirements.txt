@@ -1,0 +1,12 @@
+fastapi>=0.116.0
+uvicorn[standard]>=0.35.0
+pydantic>=2.11.0
+python-dotenv>=1.0.1
+python-multipart>=0.0.20
+httpx>=0.28.1
+PyMuPDF>=1.26.0
+Pillow>=11.0.0
+numpy>=2.2.0
+openai>=1.51.0
+faiss-cpu>=1.9.0.post1
+chromadb>=0.5.23

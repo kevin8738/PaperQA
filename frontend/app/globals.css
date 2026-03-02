@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "katex/dist/katex.min.css";
+
+body {
+  @apply bg-slate-50 text-slate-900;
+}
+
+.card {
+  @apply rounded-xl border border-slate-200 bg-white shadow-sm;
+}
+
+.btn-primary {
+  @apply rounded-lg bg-brand-600 px-4 py-2 text-sm font-semibold text-white hover:bg-brand-500 disabled:cursor-not-allowed disabled:bg-slate-400;
+}
+
+.btn-secondary {
+  @apply rounded-lg border border-slate-300 px-4 py-2 text-sm font-semibold text-slate-700 hover:bg-slate-100;
+}
+
+.input {
+  @apply w-full rounded-lg border border-slate-300 px-3 py-2 text-sm outline-none focus:border-brand-500 focus:ring-2 focus:ring-brand-100;
+}
+
+.prose-box {
+  @apply max-w-none text-sm leading-7 text-slate-800;
+}
+
+.prose-box p {
+  @apply my-2;
+}
+
+.prose-box ul {
+  @apply my-2 list-disc pl-5;
+}
+
+.prose-box ol {
+  @apply my-2 list-decimal pl-5;
+}
+
+.prose-box code {
+  @apply rounded bg-slate-100 px-1 py-0.5 text-xs;
+}
