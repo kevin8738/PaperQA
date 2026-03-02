@@ -31,13 +31,6 @@ cd ..
 
 ## 3. 환경변수 설정 (OpenAI)
 
-권장 변수명은 `OPENAI_API_KEY` 입니다.
-코드는 하위호환으로 `openai_api_key`도 읽습니다.
-
-`.env` 파일은 필수가 아닙니다. 시스템/세션 환경변수만으로 실행할 수 있습니다.
-
-세션에만 설정:
-
 ```powershell
 $env:OPENAI_API_KEY="YOUR_OPENAI_API_KEY"
 ```
